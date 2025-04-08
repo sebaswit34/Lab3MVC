@@ -2,7 +2,7 @@ const path = require("path");
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const renderNewProductPage = require("./views/renderNewProductPage.");
+const renderNewProductPage = require("./view/renderNewProductPage");
 const { PORT } = require("./config");
 const logger = require("./utils/logger");
 const productRoutes = require("./routing/product");
